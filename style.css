@@ -127,3 +127,43 @@ body {
   color: white;
   cursor: pointer;
 }
+/* زر الثلاث خطوط */
+.menu-icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* القائمة الجانبية */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 240px;
+  height: 100%;
+  background: #151515;
+  padding: 20px;
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.side-menu h3 {
+  color: #ff5fa2;
+  margin-bottom: 20px;
+}
+
+.side-menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.side-menu a:hover {
+  color: #ff5fa2;
+}
