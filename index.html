@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Velora – Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
 
+  <div class="login-box">
+    <h1>Thanks 💗</h1>
+    <p>أهلاً بك في Velora</p>
+
+    <button class="btn google">التسجيل باستخدام Google</button>
+    <button class="btn register" onclick="goMenu()">تسجيل</button>
+    <button class="btn guest" onclick="goMenu()">دخول كضيف</button>
+  </div>
+
+  <script>
+    function goMenu() {
+      window.location.href = "menu.html";
+    }
+  </script>
+
+</body>
+</html>
