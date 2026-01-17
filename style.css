@@ -55,3 +55,75 @@ body {
   background: #eee;
   color: #555;
 }
+/* صفحة البوت */
+.bot-page {
+  background: #0e0e0e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot-container {
+  width: 360px;
+  height: 600px;
+  background: #111;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.bot-header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #222;
+}
+
+.bot-messages {
+  flex: 1;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  overflow-y: auto;
+}
+
+.bot-message {
+  background: #1e1e1e;
+  padding: 10px 14px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: fit-content;
+  max-width: 80%;
+}
+
+.user-message {
+  background: #ff5fa2;
+  color: white;
+  margin-left: auto;
+}
+
+.bot-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #222;
+}
+
+.bot-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.bot-input button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #ff5fa2;
+  color: white;
+  cursor: pointer;
+}
