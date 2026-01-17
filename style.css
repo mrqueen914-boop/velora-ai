@@ -1,1 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+/* صفحة التسجيل */
+.login-page {
+  background: linear-gradient(135deg, #ffc0da, #ffe4ef);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.login-box h1 {
+  color: #ff5fa2;
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn.google {
+  background: #db4437;
+  color: white;
+}
+
+.btn.register {
+  background: #ff5fa2;
+  color: white;
+}
+
+.btn.guest {
+  background: #eee;
+  color: #555;
+}
